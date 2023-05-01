@@ -1,0 +1,2 @@
+1: The bug is that when storing num1 and num2, the program stores them as strings and not integers, which means the two values get concatenated instead of being added together when assigning result
+2: I would fix this by casting num 1 and num 2 into ints and then passing them to calculateSum().
